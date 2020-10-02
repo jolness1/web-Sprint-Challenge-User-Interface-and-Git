@@ -28,11 +28,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu,  section {
 	display: block;
 }
+
+
+}
 body {
     line-height: 1;
     margin:0% 10% 0% 10%;
 }
 
+#about{
+    display:block;
+}
 
 header nav {
     width: 75%;
@@ -45,6 +51,10 @@ header nav {
     margin-right: 4%;
     margin-left: 4%;
 }
+
+/* .inline{
+    display: inline-block;
+} */
 
 header nav a {
     color: black;
@@ -65,8 +75,51 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
+    content: none;
 }
+
+#box1{
+  background-color:teal;  
+}
+
+#box2{
+    background-color:gold;  
+  }
+
+  #box3{
+    background-color:cadetblue;  
+  }
+
+  #box4{
+    background-color:coral;  
+  }
+
+  #box5{
+    background-color:crimson;  
+  }
+
+  #box6{
+    background-color:forestgreen;  
+  }
+
+  #box7{
+    background-color:darkorchid;  
+  }
+
+  #box8{
+    background-color:hotpink;  
+  }
+
+  #box9{
+    background-color:indigo;  
+  }
+  
+  #box10{
+    background-color:dodgerblue;  
+  }
+                 
+                
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -173,4 +226,39 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.learn{
+    text-decoration: none;
+    padding:30px;
+    border:1px solid black;
+    display:flex;
+    
+    width:100px;
+    height:40px;
+}
+
+
+div.cube{
+    
+   display:flex;
+   flex-flow: row nowrap ;
+   margin:30px;
+    /* width:50%; */
+    /* justify-content: space-between; */
+}
+
+div.wrap{
+    margin:10px;
+    border: 1px dotted black;
+    display: inline-block;
+}
+
+.word{
+    display:block;
+}
+
+div.block{
+    display:block;
 }
