@@ -25,23 +25,96 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu,  section {
 	display: block;
 }
+
+
+
 body {
-	line-height: 1;
+    line-height: 1;
+    margin:0% 10% 0% 10%;
 }
+
+
+#about{
+    display:block;
+}
+
+header nav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    float:right;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+#logo{
+    display: inline-block;
+}
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
+    content: none;
 }
+
+#box1{
+  background-color:teal;  
+}
+
+#box2{
+    background-color:gold;  
+}
+
+#box3{
+    background-color:cadetblue;  
+}
+
+#box4{
+    background-color:coral;  
+}
+
+#box5{
+    background-color:crimson;  
+}
+
+#box6{
+    background-color:forestgreen;  
+}
+
+#box7{
+    background-color:darkorchid;  
+}
+
+#box8{
+    background-color:hotpink;  
+}
+
+#box9{
+    background-color:indigo;  
+}
+  
+#box10{
+    background-color:dodgerblue;  
+}
+                 
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -77,6 +150,12 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+#imgblock{
+    display: flex;
+    width:100%;
+    margin:3% 0% 3% 0%;
 }
 
 .top-content .text-container {
@@ -131,6 +210,18 @@ footer {
     background: black;
 }
 
+#about{
+    margin:30px;
+}
+
+h2#topspace{
+
+}
+
+#opening{
+    margin-top: ;
+}
+
 footer nav {
     width: 60%;
     display: flex;
@@ -143,4 +234,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.learn{
+    text-decoration: none;
+    /* padding:30px; */
+    border:1px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100px;
+    height:40px;
+    border-radius: 10px;
+}
+
+.bodypic{
+    width:370px;
+    height: auto;
+
+}
+div.cube{
+    
+   display:flex;
+   flex-flow: row nowrap ;
+   margin:30px;
+    /* width:50%; */
+    /* justify-content: space-between; */
+}
+
+div.wrap{
+    margin:10px;
+    border: 1px dotted black;
+    display: inline-block;
+}
+
+.word{
+    display:block;
+}
+
+div.block{
+    display:block;
+    margin-bottom: 30px;
 }
