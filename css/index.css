@@ -30,11 +30,12 @@ footer, header, hgroup, menu,  section {
 }
 
 
-}
+
 body {
     line-height: 1;
     margin:0% 10% 0% 10%;
 }
+
 
 #about{
     display:block;
@@ -52,10 +53,6 @@ header nav {
     margin-left: 4%;
 }
 
-/* .inline{
-    display: inline-block;
-} */
-
 header nav a {
     color: black;
     text-decoration: none;
@@ -65,10 +62,10 @@ header nav a {
     display: inline-block;
 }
 
-
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -84,42 +81,40 @@ q:before, q:after {
 
 #box2{
     background-color:gold;  
-  }
+}
 
-  #box3{
+#box3{
     background-color:cadetblue;  
-  }
+}
 
-  #box4{
+#box4{
     background-color:coral;  
-  }
+}
 
-  #box5{
+#box5{
     background-color:crimson;  
-  }
+}
 
-  #box6{
+#box6{
     background-color:forestgreen;  
-  }
+}
 
-  #box7{
+#box7{
     background-color:darkorchid;  
-  }
+}
 
-  #box8{
+#box8{
     background-color:hotpink;  
-  }
+}
 
-  #box9{
+#box9{
     background-color:indigo;  
-  }
+}
   
-  #box10{
+#box10{
     background-color:dodgerblue;  
-  }
+}
                  
-                
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -156,6 +151,7 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
 #imgblock{
     display: flex;
     width:100%;
@@ -214,6 +210,18 @@ footer {
     background: black;
 }
 
+#about{
+    margin:30px;
+}
+
+h2#topspace{
+
+}
+
+#opening{
+    margin-top: ;
+}
+
 footer nav {
     width: 60%;
     display: flex;
@@ -231,15 +239,21 @@ footer nav a {
 
 .learn{
     text-decoration: none;
-    padding:30px;
+    /* padding:30px; */
     border:1px solid black;
     display:flex;
-    
+    align-items: center;
+    justify-content: center;
     width:100px;
     height:40px;
+    border-radius: 10px;
 }
 
+.bodypic{
+    width:370px;
+    height: auto;
 
+}
 div.cube{
     
    display:flex;
@@ -261,4 +275,5 @@ div.wrap{
 
 div.block{
     display:block;
+    margin-bottom: 30px;
 }
